@@ -19,8 +19,8 @@ scratch, in Python. It also has nicer license.
 
 %description -l pl
 Enemies of Carlotta jest prostym zarz±dc± list pocztowych. Próbuje
-na¶ladowaæ trochê ezmlma, jednak jest napisany ca³kowicie od zera w Pythonie.
-Posiada tak¿e bardziej przyjazn± licencjê.
+na¶ladowaæ trochê ezmlma, jednak jest napisany ca³kowicie od zera w
+Pythonie. Posiada tak¿e bardziej przyjazn± licencjê.
 
 %prep
 %setup -q
