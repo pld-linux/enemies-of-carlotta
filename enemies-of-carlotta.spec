@@ -9,6 +9,7 @@ Source0:	http://liw.iki.fi/liw/eoc/%{name}-%{version}.tar.gz
 # Source0-md5:	c128776396562ef1c678e438422d11fb
 Patch0:		%{name}-DESTDIR.patch
 URL:		http://liw.iki.fi/liw/eoc/
+Requires:	procmail
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
