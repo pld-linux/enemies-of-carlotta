@@ -1,12 +1,13 @@
 Summary:	A simple mailing list manager
 Summary:	Prosty zarz±dca list pocztowych
 Name:		enemies-of-carlotta
-Version:	1.1.1
+Version:	1.1.2
 Release:	1
 License:	GPL
 Group:		Applications/System
 Source0:	http://liw.iki.fi/liw/eoc/%{name}-%{version}.tar.gz
-# Source0-md5:	743ddad38bd0c82b4e2bbf51e85306a5
+# Source0-md5:	34e6e943b9305500c19ad77fbf7e64a5
+# Source0-size:	66812
 URL:		http://liw.iki.fi/liw/eoc/
 Requires:	procmail
 BuildArch:	noarch
@@ -35,6 +36,7 @@ rm -rf $RPM_BUILD_ROOT
 	prefix=%{_prefix} \
 	man1dir=%{_mandir}/man1 \
 	man1dirfr=%{_mandir}/fr/man1 \
+	man1dires=%{_mandir}/es/man1 \
 	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
@@ -47,3 +49,4 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}
 %{_mandir}/man1/*
 %lang(fr) %{_mandir}/fr/man1/*
+%lang(es) %{_mandir}/es/man1/*
