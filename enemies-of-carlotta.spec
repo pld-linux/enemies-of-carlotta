@@ -1,13 +1,12 @@
 Summary:	A simple mailing list manager
 Summary:	Prosty zarz±dca list pocztowych
 Name:		enemies-of-carlotta
-Version:	1.0.3
+Version:	1.1.1
 Release:	1
 License:	GPL
 Group:		Applications/System
 Source0:	http://liw.iki.fi/liw/eoc/%{name}-%{version}.tar.gz
-# Source0-md5:	c128776396562ef1c678e438422d11fb
-Patch0:		%{name}-DESTDIR.patch
+# Source0-md5:	743ddad38bd0c82b4e2bbf51e85306a5
 URL:		http://liw.iki.fi/liw/eoc/
 Requires:	procmail
 BuildArch:	noarch
@@ -25,7 +24,6 @@ Pythonie. Posiada tak¿e bardziej przyjazn± licencjê.
 
 %prep
 %setup -q
-%patch0 -p1
 
 %build
 %{__make}
