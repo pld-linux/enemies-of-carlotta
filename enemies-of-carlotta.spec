@@ -10,6 +10,7 @@ Source0:	http://liw.iki.fi/liw/eoc/%{name}-%{version}.tar.gz
 Patch0:		%{name}-DESTDIR.patch
 URL:		http://liw.iki.fi/liw/eoc/
 Requires:	procmail
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -31,8 +32,6 @@ Pythonie. Posiada tak¿e bardziej przyjazn± licencjê.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-# create directories if necessary
-#install -d $RPM_BUILD_ROOT
 
 %{__make} install \
 	prefix=%{_prefix} \
