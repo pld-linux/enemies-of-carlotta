@@ -7,7 +7,6 @@ License:	GPL
 Group:		Applications/System
 Source0:	http://liw.iki.fi/liw/eoc/%{name}-%{version}.tar.gz
 # Source0-md5:	34e6e943b9305500c19ad77fbf7e64a5
-# Source0-size:	66812
 URL:		http://liw.iki.fi/liw/eoc/
 Requires:	procmail
 BuildArch:	noarch
