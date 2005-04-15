@@ -1,5 +1,5 @@
 Summary:	A simple mailing list manager
-Summary:	Prosty zarz±dca list pocztowych
+Summary(pl):	Prosty zarz±dca list pocztowych
 Name:		enemies-of-carlotta
 Version:	1.1.2
 Release:	1
