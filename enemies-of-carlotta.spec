@@ -1,5 +1,5 @@
 Summary:	A simple mailing list manager
-Summary(pl):	Prosty zarz±dca list pocztowych
+Summary(pl.UTF-8):   Prosty zarzÄ…dca list pocztowych
 Name:		enemies-of-carlotta
 Version:	1.1.2
 Release:	1
@@ -17,10 +17,10 @@ Enemies of Carlotta is a simple mailing list manager. It tries to
 mimick the ezmlm software somewhat, but is written completely from
 scratch, in Python. It also has nicer license.
 
-%description -l pl
-Enemies of Carlotta jest prostym zarz±dc± list pocztowych. Próbuje
-na¶ladowaæ trochê ezmlma, jednak jest napisany ca³kowicie od zera w
-Pythonie. Posiada tak¿e bardziej przyjazn± licencjê.
+%description -l pl.UTF-8
+Enemies of Carlotta jest prostym zarzÄ…dcÄ… list pocztowych. PrÃ³buje
+naÅ›ladowaÄ‡ trochÄ™ ezmlma, jednak jest napisany caÅ‚kowicie od zera w
+Pythonie. Posiada takÅ¼e bardziej przyjaznÄ… licencjÄ™.
 
 %prep
 %setup -q
